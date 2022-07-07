@@ -2,19 +2,20 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
 import Components from './components/Components';
-import Comp1 from './components/Class'; 
-
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <BrowserRouter>
+    
     <div className="App">
-      <Route>
+    <Navbar/>
+    <Routers>
     <Route path='/home' element={<Home/>}/>
     <Route path='/component' element={<Components/>}/>  
-     </Route>
+     </Routers>
    
     </div>
     </BrowserRouter>
