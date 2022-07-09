@@ -1,8 +1,8 @@
 import React from "react";
 import s from "./Class.css"
 
-class Comp1 extends React.Component{
-    render(){
+class Comp1 extends React.Component {
+    render() {
         return (
             <div>
                 <h2>
@@ -18,8 +18,8 @@ class Comp1 extends React.Component{
             </div>
         )
     }
-    
-    
+
+
 }
 
 export default Comp1;
